@@ -2,8 +2,8 @@
 $hostName = "localhost";
 $dbUser = "root";
 $dbPass = "";
-$dbName = "testlogin";
-//$dbName = "my_app";
+//$dbName = "testlogin";
+$dbName = "my_app";
 
 
 $con = new mysqli($hostName, $dbUser, $dbPass, $dbName);
